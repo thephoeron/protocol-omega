@@ -23,5 +23,5 @@ REST API client definition library for Common Lisp with delusions of grandeur.
 
 Copyright &copy; 2022, "the Phoeron" Colin J.E. Lupton
 
-Released under the MIT License. See [protocol-omega/LICENSE.md](LICENSE.md)
-for more information.
+Released under the MIT License. See [protocol-omega/LICENSE](./LICENSE) for more
+information.
