@@ -18,13 +18,23 @@ REST API client definition library for Common Lisp with delusions of grandeur.
 - sensible mapping of different HTTP Request parameter types to lambda lists
 - automatically handle authentication and authorization of requests through
   services and sessions
+- build on existing libraries
 - largely-automated conversion of Swagger and OpenAPI specifications to Common
   Lisp client library
-- maybe follow interfaces of either [Snooze][] or [Restful][] for isomorphism
-  with REST server implementation
+- maybe take inspiration from existing, incomplete, and abandoned attempts:
+    - [openapi2cl][]
+- maybe follow interfaces of various REST server implementations for isomorphism
+  in client and server development:
+    - [Snooze][]
+    - [Restful][]
+    - [cl-rest-server][]
+    - [Ningle][]
 
+[openapi2cl]: https://github.com/kat-co/openapi2cl
 [Snooze]: https://github.com/capitaomorte/snooze
 [Restful]: https://github.com/Ralt/restful
+[cl-rest-server]: https://github.com/mmontone/cl-rest-server
+[Ningle]: https://github.com/fukamachi/ningle
 
 ### Services
 
